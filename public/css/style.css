@@ -186,5 +186,3 @@ textarea:valid~label {
 input[type="email"]:invalid:not(:placeholder-shown)~label {
     color: rgb(209, 134, 134);
 }
-
-
