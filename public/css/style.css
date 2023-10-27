@@ -73,34 +73,6 @@ h2{
 
 
 /* Body */
-.main {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
-
-.bgshape{
-    width: 65vw;
-    height: 75vh;
-    background-color: #315AF1;
-    place-self: center;
-    z-index: 0;
-}
-
-.bgimg1{
-    max-width: 30vw;
-    grid-column: 1/3;
-    grid-row: 1/3;
-    z-index: 1;
-    place-self: center;
-}
-
-.nltext {
-    justify-self: center;
-    align-self: center;
-    place-self: center;
-    z-index: 2;
-}
 
 
 
