@@ -73,8 +73,48 @@ h2{
 
 
 /* Body */
+.main {
+    position: relative;
+    width: auto;
+}
 
+.shape {
+    width: 50vw;
+    height: 70vh;
+    background: #315AF1;
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    z-index: 0;
+}   
 
+.img1 {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    padding-top: 13vh;
+    padding-left: 5vw;
+    z-index: 1;
+}
+
+.img2 {
+    width: 33vw;
+    height: auto;
+    position: absolute;
+    padding-top: 5vh;
+    padding-left: 55vw;
+    z-index: 1;
+}
+
+.NLText {
+    position: relative;
+    z-index: 2;
+    font-size: 4vw;
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Contact */
 
