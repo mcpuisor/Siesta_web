@@ -1,0 +1,150 @@
+@import url("https://use.typekit.net/phj2qiq.css");
+* {
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    width: 100%;
+}
+
+h1{
+    font-size: 6vw;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 0.8vw;
+    font: weight 200px;
+    color: #315AF1;
+}
+
+
+/* Header */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    max-width: 100px;
+    max-height: 100px;
+    padding-left: 40%;
+  }
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0px 20px 0px 0px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    color: #315AF1;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #7c97fa;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: #7c97fa;
+    position: absolute;
+    bottom: -2px;
+    left: 1px;
+}
+
+
+/* Body */
+.main {
+    position: relative;
+    width: auto;
+}
+
+.shape {
+    width: 50vw;
+    height: 70vh;
+    background: #315AF1;
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+    z-index: 0;
+}   
+
+.img1 {
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    padding-top: 13vh;
+    padding-left: 5vw;
+    z-index: 1;
+}
+
+.img2 {
+    width: 33vw;
+    height: auto;
+    position: absolute;
+    padding-top: 5vh;
+    padding-left: 55vw;
+    z-index: 1;
+}
+
+form {
+    position: relative;
+    display: flex;
+    z-index: 2;
+    top: 50%;
+    display:flex;
+    justify-content: center;
+}
+
+form input {
+    position: relative;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    height: 10px;
+    width: 20vw;
+    min-width: 250px;
+    font-size: 15px;
+    z-index: 2;
+}
+
+form button {
+    position: relative;  
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 40px;
+    cursor: pointer;
+    z-index: 2;
+    color: #315AF1;
+}
+
+.NLText {
+    position: relative;
+    z-index: 2;
+    font-size: 4vw;
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
