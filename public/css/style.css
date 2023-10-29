@@ -106,6 +106,38 @@ h2{
     z-index: 1;
 }
 
+.formMain {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    width: fit-content;
+}
+
+.formMain input {
+    position: relative;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    height: auto;
+    width: 20vw;
+    min-width: 250px;
+    font-size: 15px;
+    z-index: 2;
+}
+
+.formMain button {
+    position: relative;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    height: auto;
+    width: 40px;
+    cursor: pointer;
+    z-index: 2;
+}
+
 .NLText {
     position: relative;
     z-index: 2;
@@ -133,7 +165,7 @@ h2{
     justify-content: center;
 }
 
-form {
+.formContact {
     width: 90%;
     max-width: 800px;
 }

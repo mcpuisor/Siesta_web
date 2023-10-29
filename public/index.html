@@ -24,5 +24,28 @@
         <img src="resources/img002.jpg" class="img2" alt="img002">
         <h1 class="NLText">SIGN UP TO GET EARLY ACCSSS</h1>
     </section>
+    <form class="formMain">
+        <div class="inputEmail">
+            <input type="email" id="email" required placeholder=" ">
+            <label for="email">Your Email</label>
+        </div>
+        <button type="submit"><img src="resources/next-button.png" width="30px"></button>
+    </form>
+<!--     <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+      </form>
+      
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyq-MJ6AJQwBYiebgLeUDqGSIrhPBMoStX3zSK_8WGeC4isNtfD-Pe9wGWRNXrXuHJH8Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script> -->
 </body>
 </html>
