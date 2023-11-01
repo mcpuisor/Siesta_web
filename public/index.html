@@ -23,28 +23,11 @@
         <img src="resources/img002.jpg" class="img2" alt="img002">
         <h1 class="NLText">SIGN UP TO GET EARLY ACCSSS</h1>
     </section>
-    <form class="formMain">
-        <div class="inputEmail">
-            <input type="email" id="email" required placeholder="Your email">
-            <label for="email" ></label>
-        </div>
-        <button type="submit"><img src="resources/next-button.png" width="30px"></button>
+    <form action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSdUTS4ffLgYzilm5U_0b3yMyJbGyL4Xekc3WP9fia_kzcdGOQ/formResponse" method="POST">
+        <label>
+            <input type="email" name="entry.476512574" placeholder="email@siesta.with.us">
+        </label>
+        <button type="submit">Submit</button>
     </form>
-<!--     <form name="submit-to-google-sheet">
-        <input name="email" type="email" placeholder="Email" required>
-        <button type="submit">Send</button>
-      </form>
-      
-      <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyq-MJ6AJQwBYiebgLeUDqGSIrhPBMoStX3zSK_8WGeC4isNtfD-Pe9wGWRNXrXuHJH8Q/exec'
-        const form = document.forms['submit-to-google-sheet']
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script> -->
 </body>
 </html>

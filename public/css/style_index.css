@@ -121,7 +121,7 @@ form input {
     border: 0;
     outline: none;
     padding: 10px 20px;
-    height: 10px;
+    height: 20px;
     width: 20vw;
     min-width: 250px;
     font-size: 15px;
@@ -132,11 +132,12 @@ form button {
     position: relative;  
     border: none;
     outline: none;
-    height: 30px;
+    height: 40px;
     width: 40px;
     cursor: pointer;
     z-index: 2;
     color: #315AF1;
+    background-color: #ffffff;
 }
 
 .NLText {
